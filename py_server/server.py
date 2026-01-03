@@ -6,7 +6,7 @@ import mysql.connector
 
 # Database connection
 db = mysql.connector.connect(
-    host="localhost",   # will change later to "mysql"
+    host="mysql", 
     user="root",
     password="rootpassword",
     database="pointsdb"

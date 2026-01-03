@@ -1,7 +1,7 @@
 import socket
 
 # Server details
-HOST = "127.0.0.1"  # use server container name if using Docker Compose later
+HOST = "py-server" 
 PORT = 5002
 
 # Connect to server

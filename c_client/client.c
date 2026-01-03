@@ -41,7 +41,6 @@ int main() {
         return 1;
     }
 
-    // Send a request (can be anything, server should handle it)
     const char *request = "GET_POINTS";
     send(sock, request, strlen(request), 0);
 
