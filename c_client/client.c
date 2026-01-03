@@ -13,7 +13,7 @@
 int main() {
     int sock;
     struct sockaddr_in server_addr;
-    struct hostent *he;
+    struct hostent *he = gethostbyname(SERVER_NAME);;
     char buffer[BUFFER_SIZE] = {0};
 
     // Resolve service name to IP
